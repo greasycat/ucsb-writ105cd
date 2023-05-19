@@ -1,4 +1,8 @@
-LIST ph = u,d,m,r,v
+VAR u = 0
+VAR d = 0
+VAR m = 0
+VAR r = 0
+VAR v = 0
 INCLUDE abortion.ink
 INCLUDE lying.ink
 -> intro
@@ -27,16 +31,16 @@ Welcome to "Ethics in Action: A Family's Journey"! In this engaging and thought-
 
 = abortion_yes
 Alice decides to abort the child. She explains to Bob based on 
-* Utilitarianism
-    {ab_u1}
-* Deontology
-    {ab_d1}
-* Morality
-    {ab_m1}
-* Rights
-    {ab_r1}
-* Virtues
-    {ab_v1}
+* . {ab_u1}
+    ~u += 1
+* . {ab_d1}
+    ~d += 1
+* . {ab_m1}
+    ~m += 1
+* . {ab_r1}
+    ~r += 1
+* . {ab_v1}
+    ~v += 1
 - Bob nods.
 The baby is not going to be born this time.
 -> END
@@ -44,16 +48,16 @@ The baby is not going to be born this time.
 -> DONE
 = abortion_no
 Bob decides to have the child. He explains to Alice based on
-* Utilitarianism
-    {ab_u0}
-* Deontology
-    {ab_d0}
-* Morality
-    {ab_m0}
-* Rights
-    {ab_r0}
-* Virtues
-    {ab_v0}
+* . {ab_u0}
+    ~u += 1
+* . {ab_d0}
+    ~d += 1
+* . {ab_m0}
+    ~m += 1
+* . {ab_r0}
+    ~r += 1
+* . {ab_v0}
+    ~v += 1
 - Alice nods
 
 8months later, a healthy child named Carol is born
@@ -61,7 +65,6 @@ Bob decides to have the child. He explains to Alice based on
 -> DONE
 
 = lying
-
 *\(BOB answers the call, his face filled with concern. ALICE watches anxiously.\)
 BOB: (on the phone) What? How serious is it? I'll be there soon. Thank you for letting me know.
 **\(ALICE's eyes widen, worried.\)
@@ -84,32 +87,32 @@ BOB: (on the phone) What? How serious is it? I'll be there soon. Thank you for l
 When they are dealing with the phone calls. Carol quietly listens without making a sound.
 Finally, Alice and Bob notices that their child is looking at them in a state of confusion
 Bob knows he has to explain his decision to the child based on
-* Utilitarianism
-    {ly_u1}
-* Deontology
-    {ly_d1}
-* Morality
-    {ly_m1}
-* Rights
-    {ly_r1}
-* Virtues
-    {ly_v1}
+* . {ly_u1}
+    ~u += 1
+* . {ly_d1}
+    ~d += 1
+* . {ly_m1}
+    ~m += 1
+* . {ly_r1}
+    ~r += 1
+* . {ly_v1}
+    ~v += 1
 - Alice nods
 -> DONE
 = lying_no
 When they are dealing with the phone calls. Carol quietly listens without making a sound.
 Finally, Alice and Bob notices that their child is looking at them in a state of confusion
 Alice know he has to explain her decision to the child based on
-* Utilitarianism
-    {ly_u0}
-* Deontology
-    {ly_d0}
-* Morality
-    {ly_m0}
-* Rights
-    {ly_r0}
-* Virtues
-    {ly_v0}
+* . {ly_u0}
+    ~u += 1
+* . {ly_d0}
+    ~d += 1
+* . {ly_m0}
+    ~m += 1
+* . {ly_r0}
+    ~r += 1
+* . {ly_v0}
+    ~v += 1
 - Bob nods
 -> DONE
 
