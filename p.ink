@@ -28,8 +28,8 @@ Welcome to "Ethics in Action: A Family's Journey"! In this engaging and thought-
 
 ***** \(ALICE searches for strength in BOB's eyes, conflicted and uncertain.\)
 
-****** [They decided to abort the child] -> abortion_yes
-****** [They decided not to abort the child] -> abortion_no
+****** [They decides to abort the child] -> abortion_yes
+****** [They decides not to abort the child] -> abortion_no
 
 
 -> DONE
@@ -66,28 +66,29 @@ Bob decides to have the child. He explains to Alice based on
 - Alice agrees not to abort the child
 
 8months later, a healthy child named Carol is born
-* \[7 years later\] -> lying
+ -> lying
 -> DONE
 
 = lying
 # CLEAR
-*\(BOB answers the call, his face filled with concern. ALICE watches anxiously.\)
+* \[7 years later\]
+**\(BOB answers the call, his face filled with concern. ALICE watches anxiously.\)
 BOB: (on the phone) What? How serious is it? I'll be there soon. Thank you for letting me know.
-**\(ALICE's eyes widen, worried.\)
+***\(ALICE's eyes widen, worried.\)
     ALICE: What happened, Bob? Is everything okay?
 
-***BOB: No, Alice. My sister is dying. It's serious. But if we tell my sick mother, it could worsen her condition.
+****BOB: No, Alice. My sister is dying. It's serious. But if we tell my sick mother, it could worsen her condition.
 
-****\(ALICE's face shows concern, contemplating their options.\)
+*****\(ALICE's face shows concern, contemplating their options.\)
     ALICE: Maybe we should visit your sister first, gather more information, and then decide how to handle your mother's situation.
 
-*****BOB: I know, Alice. It's just... keeping this from my mother feels wrong, but we need to prioritize everyone's well-being.
+******BOB: I know, Alice. It's just... keeping this from my mother feels wrong, but we need to prioritize everyone's well-being.
 
-****** \(ALICE reassures BOB, offering support.)
+******* \(ALICE reassures BOB, offering support.)
     ALICE: We'll figure this out, .
     
-******* [ALICE: We have to tell the truth] -> lying_no
-******* [BOB: We can't tell the truth] -> lying_yes
+******** [ALICE: We have to tell the truth] -> lying_no
+******** [BOB: We can't tell the truth] -> lying_yes
 
 = lying_yes
 When they are dealing with the phone calls. Carol quietly listens without making a sound.
@@ -103,7 +104,7 @@ Bob knows he has to explain his decision to the child based on
     ~r += 1
 * BOB: {ly_v1}
     ~v += 1
-- Carol nods. -> punish
+- Carol nods but she is still a bit confused. -> punish
 -> DONE
 = lying_no
 When they are dealing with the phone calls. Carol quietly listens without making a sound.
@@ -119,7 +120,7 @@ Alice know he has to explain her decision to the child based on
     ~r += 1
 * ALICE: {ly_v0}
     ~v += 1
-- Carol nods. -> punish
+- Carol nods but she is still a bit confused. -> punish
 
 -> DONE
 
@@ -140,8 +141,8 @@ Alice know he has to explain her decision to the child based on
 
 ******* BOB: (hesitates) I don't want to hurt Carol, but maybe they need to understand the consequences. We can't let this behavior go unpunished.
 
-******** [They decided to punish the child] -> punish_yes
-******** [They decided not punish the child] -> punish_no
+******** [They decides to punish the child] -> punish_yes
+******** [They decides not punish the child] -> punish_no
 
 = punish_yes
 ~ relation -= 1
@@ -186,8 +187,8 @@ Alice know he has to explain her decision to the child based on
 
 ******* \(ALICE looks at BOB, searching for common ground.\)
 
-******** [They decided to install surveillance device] -> surveillance_yes
-******** [They decided not to install surveillance device] -> surveillance_no
+******** [They decides to install surveillance device] -> surveillance_yes
+******** [They decides not to install surveillance device] -> surveillance_no
 
 -> DONE
 
@@ -235,8 +236,8 @@ Alice know he has to explain her decision to the child based on
 *******BOB: (frustrated) I still have reservations, Carol. It's not just about hormones; there are biological differences too. We need to ensure fair competition for all athletes.
 
 ******** \(ALICE interjects, trying to mediate the discussion.)
-********* \[Alice decided to support Carol\] -> trans_yes
-********* \[Alice decided to support Bob\] -> trans_no
+********* \[Alice decides to support Carol\] -> trans_yes
+********* \[Alice decides to support Bob\] -> trans_no
 -> DONE
 
 = trans_yes
@@ -295,6 +296,7 @@ Alice know he has to explain her decision to the child based on
 
 ******** CAROL: (nodding) I understand, Dad. Respect is crucial, and I'll carry that with me. I want to grow, but I'll always value the foundation you've given me.
     (Carol smiles, a mix of excitement and gratitude, feeling the love and support from her parents.)
+    -> result
 -> END
 = college_close
 * Carol's bedroom. She sits at her desk, filling out her college application. Alice and Bob stand by the doorway, observing her with smiles on their faces.
@@ -318,7 +320,7 @@ Alice know he has to explain her decision to the child based on
 
 = result
 * Story ends
-** Your choices in this story may suggest how much you value these ideas:
+** Your choices in this story may suggest how much you value these ideas relatively:
 Utilitarianism {u}
 Deontology {d}
 Morality {m}
