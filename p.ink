@@ -15,6 +15,7 @@ INCLUDE trans.ink
 Welcome to "Ethics in Action: A Family's Journey"! In this engaging and thought-provoking text-based game, you will watch a child growing up in a loving household with parents named Alice and Bob. Prepare yourself for a captivating adventure where you'll encounter a range of ethical dilemmas and make critical decisions that will shape the course of their life.
 
 * [Start] -> abortion
+* [Debug] -> result
 
 = abortion
 # CLEAR
@@ -319,11 +320,9 @@ Alice know he has to explain her decision to the child based on
 -> DONE
 
 = result
-* Story ends
-** Your choices in this story may suggest how much you value these ideas relatively:
-Utilitarianism {u}
-Deontology {d}
-Morality {m}
-Rights {r}
-Virtues {v}
+# CLEAR
+* END (Click to see what your choices tell about you)
+** Overall, The choices you made:
+
+{u}{d}{m}{r}{v}
 -> END
