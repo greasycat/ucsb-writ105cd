@@ -15,7 +15,6 @@ INCLUDE trans.ink
 Welcome to "Ethics in Action: A Family's Journey"! In this engaging and thought-provoking text-based game, you will watch a child growing up in a loving household with parents named Alice and Bob. Prepare yourself for a captivating adventure where you'll encounter a range of ethical dilemmas and make critical decisions that will shape the course of their life.
 
 * [Start] -> abortion
-* [Debug] -> result
 
 = abortion
 # CLEAR
@@ -47,8 +46,8 @@ Alice decides to abort the child. She explains to Bob based on
     ~r += 1
 * ALICE: {ab_v1}
     ~v += 1
-- Bob nods
-The baby is not going to be born this time.
+- The expected arrival of the baby didn't happen at that time. But just in a few years, Alice and Bob had made all the necessary preparations, both financially and emotionally. Finally, the joyous day arrived when a healthy child, named Carol, was born. -> lying
+
 -> END
 
 -> DONE
@@ -64,10 +63,7 @@ Bob decides to have the child. He explains to Alice based on
     ~r += 1
 * BOB: {ab_v0}
     ~v += 1
-- Alice agrees not to abort the child
-
-8months later, a healthy child named Carol is born
- -> lying
+- Alice agrees not to abort the child. 8 months later, the joyous day arrived when a healthy child, named Carol, was born. -> lying
 -> DONE
 
 = lying
@@ -223,6 +219,7 @@ Alice know he has to explain her decision to the child based on
 -> DONE
 
 = trans
+# CLEAR
 * \[Carol was enrolled into a local high school\]
 ** Alice and Bob's living room. Carol sits on the couch, engaged in a passionate discussion with her parents, Alice and Bob.
 
