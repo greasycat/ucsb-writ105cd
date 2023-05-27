@@ -12,9 +12,43 @@ INCLUDE trans.ink
 -> intro
 
 === intro
-Welcome to "Ethics in Action: A Family's Journey"! In this engaging and thought-provoking text-based game, you will watch a child growing up in a loving household with parents named Alice and Bob. Prepare yourself for a captivating adventure where you'll encounter a range of ethical dilemmas and make critical decisions that will shape the course of their life.
+Ethics in Action: A Family's Journey
+Welcome to "Ethics in Action: A Family's Journey"! In this, text-based game, you will be following the story of a child growing up in a loving household with parents named Alice and Bob and encountering a series of ethical dilemmas that will test your decision-making skills and explore various moral perspectives.
+The dilemmas presented in this game are chosen from different controversial topics, including abortion, good lies, corporal punishment, privacy, and transgender athletics. These topics can provoke discussions on values like personal values and moral decision-making. Before starting the game, here is some background information about these dilemmas that will help you better understand the issues.
 
-* [Start] -> abortion
+* Abortion: Should pregnant women have the right to abort their children?
+Abortion has been a controversial ethical dilemma for a long time. Supporters of abortion rights, who lay emphasis on the factors like personal situations, health risks, and future plans, believe that women have the right and freedom to make decisions about their own bodies and health. On the other hand, objectors claim that unborn lives should be protected by laws, just like born ones. This topic sparks strong opinions and is significant in discussions about personal choices and moral values. The question surrounding abortion elicits impassioned and deeply ingrained beliefs, rendering it a significant topic in discussions surrounding personal liberty and moral accountability.
+
+<a target="_blank" rel="noopener noreferrer" href="https:\/\/www.pewresearch.org/religion/2022/05/06/social-and-moral-considerations-on-abortion">(Learn more about the ethical considerations surrounding abortion)</a> 
+
+
+
+** Lying for Good Reason: Are people supposed to lie to others for good reasons?
+This ethical dilemma examines the justifiability of lying in certain situations where the intention is to prevent harm or promote a greater good. Supporters argue that lying for good reason can be morally acceptable when it serves to protect someone from harm, uphold justice, or prevent serious consequences. They contend that the intention behind the lie and the potential positive outcomes outweigh the act of deception itself. On the other hand, opponents argue that lying undermines trust, integrity, and the value of honesty, even if the intentions are positive. Alternative approaches, including open communication, should be pursued to address the situation rather than deception. 
+
+<a target="_blank" rel="noopener noreferrer" href="https:\/\/daily-philosophy.com/is-lying-ethical/\#:~:text=Lying%2C%20deception%20and%20when%20they%20are%20justified&text=Lying%20is%20generally%20perceived%20as,harm)%20might%20be%20morally%20justifiable">(Explore the ethical implications of good lies)</a>
+
+*** Corporal Punishment: Is it acceptable for parents to use physical discipline as a form of punishment? 
+This ethical dilemma focuses on the use of physical force as a disciplinary measure for children and raises debates regarding its effectiveness and ethical considerations. Supporters believe that corporal punishment can instill discipline and deter inappropriate behavior. However, critics suggest that violence may have negative long-term effects on a child's well-being and undermine principles of empathy. The question of corporal punishment prompts discussions on alternative disciplinary methods, child rights, and the importance of promoting positive parenting strategies that prioritize communication and healthy relationships.
+
+<a target="_blank" rel="noopener noreferrer" href="https:\/\/www.verywellfamily.com/facts-about-corporal-punishment-1094806">(Explore the ethical implications of corporal punishment)</a>
+
+**** Privacy and Surveillance: Is it justifiable to install surveillance devices on your children’s devices for safety purposes?
+This ethical dilemma revolves around finding a delicate balance between safeguarding children's safety and respecting their right to privacy. Supporters of surveillance devices argue that such technology can assist parents in monitoring potential risks, preventing harm, and ensuring the well-being of their children. However, critics raise concerns about privacy infringement, the potential for misuse, and the impact on the development of trust and autonomy within parent-child relationships. This dilemma prompts broader questions regarding the limits of parental authority and the necessity of striking a balance between protecting children and nurturing their independence and privacy. Delving into this issue requires a thoughtful examination of the ethical considerations encompassing parental responsibility, trust-building, and the rights of children.
+<a target="_blank" rel="noopener noreferrer" href="https:\/\/www.parentsandkids.com/54515/what-is-ethical-and-not-ethical-to-monitor-through-a-parental-control-app/">(Learn more about children’s privacy and surveillance)</a>
+
+***** Transgender Athletics: Should transgenders be allowed to compete in sports based on their gender identity?
+This complex ethical dilemma revolves around the inclusion and fairness of transgender athletes in competitive sports. Supporters contend that it is important to grant transgender individuals the right to participate in sports based on their gender identity, aiming to foster inclusivity and provide equal opportunities. They emphasize the significance of acknowledging and validating the gender identity of transgender athletes, advocating for the implementation of policies that prioritize self-identification and eliminate discriminatory barriers. Conversely, opponents raise concerns about preserving fair competition, specifically regarding potential physical advantages that certain transgender individuals may possess based on their assigned sex at birth. They contend that permitting transgender individuals to compete based on their gender identity could potentially undermine the integrity and fairness of the competition.
+
+<a target="_blank" rel="noopener noreferrer" href="https:\/\/theconversation.com/striking-a-balance-between-fairness-in-competition-and-the-rights-of-transgender-athletes-159685">(Understand the ethical complexities of transgender athletes)</a>
+
+Your choices and reasoning will determine what kind of person you are in terms of ethics such as utilitarianism, deontology, morality, rights, virtues, or even nihilism. Enjoy embarking on this captivating journey and exploring the depths of ethical decision-making.
+
+Are you prepared to make tough choices and discover the ethical path that lies ahead for Alice, Bob, and their child? Let's begin the journey and see what awaits in "Ethics in Action: A Family's Journey"!
+
+
+
+******* [Start] -> abortion
 
 = abortion
 # CLEAR
